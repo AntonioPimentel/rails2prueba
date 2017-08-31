@@ -23,3 +23,4 @@ Things you may want to cover:
 
 * ...
 # rails2prueba
+http://g10pruebarails2.herokuapp.com/
