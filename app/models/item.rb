@@ -8,6 +8,4 @@ class Item < ApplicationRecord
 
 
 
-
-
 end
