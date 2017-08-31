@@ -3,11 +3,13 @@ class User < ApplicationRecord
 
 	validates :email, uniqueness: true
 
-		before_save :normalize_name
+	before_save :normalize_name
 
-			 def normalize_name
+	
 
-			 	User.name.capitalize
+		def normalize_name
+
+	 		self.name = self.name.capitalize!
 				
-			 end
+		end
 end
